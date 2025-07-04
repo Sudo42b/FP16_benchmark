@@ -1,41 +1,21 @@
-# Prerequisites
-*.d
+# Ninja files
+build.ninja
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Build objects and artifacts
+deps/
+build/
+bin/
+lib/
+*.pyc
+*.pyo
 
-# Precompiled Headers
-*.gch
-*.pch
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+.vscode/
